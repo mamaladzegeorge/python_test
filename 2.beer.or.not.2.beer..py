@@ -54,7 +54,49 @@ if age>18:
                       
                       
 elif age<18 and age>16:
-    print("if you ever want a beer just ask,\nit's not legal for someone of your age but for me\nage is just a number.")
+    print("if you ever want a beer just ask,")
+    time.sleep(1)
+    print("it's not legal for someone of your age, but...")
+    time.sleep(1)
+    print("for me, age is just a number.")
+    time.sleep(1)
+    print("do you want one right now?")
+    time.sleep(1)
+    answer=str(input("type y for yes,anything else means NO..."))
+    if answer!="y":
+        print("come back when you grow up a little")
+        time.sleep(1)
+        print("Do you want milk?")
+    else:
+        print("which beer do you want? I have all of them")
+        beer_name=input("beer:")
+        if beer_name=="natakhtari" or beer_name=="zedazeni" or beer_name=="nataxtari":
+            print("sorry, I only have proper beer.")
+            time.sleep(1)
+            print(beer_name+" tastes like dog's piss, I don't like it")
+            time.sleep(1)
+
+            print("Try this.")
+            time.sleep(1)
+            print(".")
+            time.sleep(1)
+            print(".")
+            time.sleep(1)
+            print(".")
+            print("oOOooOOOo"+"\n|       |"+"\n|guiness|\\\ "+"\n|       | ||"+"\n|       |//"+"\n|_______|")
+        elif beer_name=="heineken" or beer_name=="amstel" or beer_name=="grolsch":
+            print("sorry, I don't have any Dutch beers")
+            time.sleep(1)
+            print("Try this.")
+            time.sleep(1)
+            print(".")
+            time.sleep(1)
+            print(".")
+            time.sleep(1)
+            print(".")
+            print("oOOooOOOo"+"\n|       |"+"\n| stella|\\\ "+"\n|       | ||"+"\n|       |//"+"\n|_______|")
+            
+            
 else:
     print(str(18-age)+"years left and you can enjoy our tasty beer.")
 
